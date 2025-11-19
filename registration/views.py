@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.hashers import check_password, make_password
+from django.urls import reverse
 
 # Create your views here.
 from .models import UserRegistration
